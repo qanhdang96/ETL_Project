@@ -2,7 +2,7 @@
 
 ![alt text](http://thoughtmedicine.com/wp-content/uploads/2010/05/10879720656_a84a32f05d_b-1024x683.jpg)
 
-For this project, we will examine data on Happiness and Human Freedom index to determine if the statistics have any correlation to one another.
+For this project, we will examine data on Happiness and Human Freedom index to determine if the statistics have any relation to one another.
 
 ## Group Members: 
 * Quynh Anh Dang
