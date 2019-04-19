@@ -11,7 +11,7 @@ For this project, we will examine data on Happiness and Human Freedom index to d
 
 ## Extract: 
 
-* Utilizing two different datasets, Happiness and Human Freedom Index, we will be cleaning the dataset to extract and transform the datas we would like to see, then finally load it into a SQL database. From each CSV File, we put the CSV into Pandas DataFrame. 
+* Utilizing two different datasets, Happiness and Human Freedom Index, we will be cleaning the dataset to extract the datas we would like to see, transform, then finally load it into a SQL database. Extract the raw data from Kraggle data set by running through the downloaded CSV files and inputting the information into the Pandas Dataframes.
 
 * World Happiness data: https://www.kaggle.com/unsdsn/world-happiness
 
@@ -19,11 +19,11 @@ For this project, we will examine data on Happiness and Human Freedom index to d
 
 ## Transform:
 
-* Used Pandas to drop extraneous columns such as Region, Generosity, Dystopia Residual, Family, Confidence Intervals and Health.
+* Fore the first dataset, we used Pandas to filtered out extraneous columns such as Region, Generosity, Dystopia Residual, Family, Confidence Intervals and Health.
 
 * Renamed the kept columns Happiness Rank, Happiness Score, GDP and Country using pandas rename function.
 
-* Extract the raw data from Kraggle data set by running through the downloaded CSV files and inputting the information into the Pandas Dataframes. From there, we only selected data in year of 2016, and  filtered  the data to get necessary columns of score and rank for human freedom, personality, and economics freedom.
+* For the second dataset we only selected data in year of 2016, and  filtered the data to get necessary columns of score and rank for human freedom, personality, and economics freedom.
 
 * Columns in both dataset was renamed and formatted as snake case. 
   Example: Happiness Rank => happiness_rank
